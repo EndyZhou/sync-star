@@ -1,0 +1,25 @@
+{
+  "name": "migrate-stars",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "bun ./src/index"
+  },
+  "keywords": [
+    "migrate",
+    "stars",
+    "sync"
+  ],
+  "author": "",
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "@octokit/graphql": "^8.1.1",
+    "@octokit/plugin-retry": "^7.1.2",
+    "@octokit/rest": "^21.0.2",
+    "@types/node": "^22.9.1",
+    "dotenv": "^16.4.5",
+    "ora": "^8.1.1",
+    "p-queue": "^8.0.1",
+    "typescript": "^5.6.3"
+  }
+}
